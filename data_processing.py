@@ -4,7 +4,7 @@ import time
 
 # GitHub API URL and headers
 GITHUB_API_URL = "https://api.github.com"
-TOKEN = "#############################"  
+TOKEN = "xxxx"  
 HEADERS = {'Authorization': f'token {TOKEN}'}
 
 def fetch_users(city="Shanghai", min_followers=200):
